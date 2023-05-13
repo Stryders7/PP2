@@ -9,7 +9,6 @@
     padding: 0;
     background: linear-gradient(120deg,#4ca6e2, #cee452);
     height: 100vh;
-    overflow: hidden;
     text-align: justify;
   }
   
@@ -144,4 +143,25 @@
 
   h5{
     font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .alinear1{
+    
+    display: flex;
+    justify-content: center;
+    margin: 6 6px;
+    
+
+  }
+  .alinear2{
+    display: flex;
+    justify-content: center;
+    margin: 6 6px;
+    
+    
+
+  }
+ 
+  .img{
+    width: 300;
   }
