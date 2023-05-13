@@ -7,7 +7,7 @@
   body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg,#4ca6e2, #cee452);
+    background: linear-gradient(120deg,#eeeb36, #ffa600);
     height: 100vh;
     overflow: hidden;
     text-align: justify;
@@ -135,7 +135,7 @@
     text-decoration: underline;
   }
   nav{
-    background: linear-gradient(120deg,#4ca6e2, #cddd74);
+    background: linear-gradient(120deg,#eeeb36, #ffa600);
   }
 
   .center{
