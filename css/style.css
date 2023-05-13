@@ -8,8 +8,8 @@
     margin: 0;
     padding: 0;
     background: linear-gradient(120deg,#e2e055, #ffa600);
-    height: 100vh;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif; 
   }
   
   
@@ -141,12 +141,4 @@
     overflow-clip-margin: content-box;
   }
 
-  h5{
-    font-family: Arial, Helvetica, sans-serif;
-  }
 
-  .fotos .galeria{
-    width: 100%;
-    height: 210px;
-    border-radius: 5px;
-  }
