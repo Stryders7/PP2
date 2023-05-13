@@ -137,3 +137,11 @@
   nav{
     background: linear-gradient(120deg,#4ca6e2, #cddd74);
   }
+
+  .center{
+    overflow-clip-margin: content-box;
+  }
+
+  h5{
+    font-family: Arial, Helvetica, sans-serif;
+  }
