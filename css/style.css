@@ -7,8 +7,7 @@
   body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg,#4ca6e2, #cee452);
-    height: 100vh;
+    background: linear-gradient(120deg,#eeeb36, #ffa600);
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif; 
   }
