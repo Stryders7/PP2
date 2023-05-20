@@ -1,22 +1,22 @@
-var nombre = document.getElementById(usuario);
-var password = document.getElementById(clave);
-var correo = document.getElementById(correo);
-var error = document.getElementById(error);
-error.style.color = 'red';
-function enviarformulario(){
-    console.log("Enviando formulario")
-    var mensajeserror = [];
+function enviarformulario() {
+    var usuario = document.getElementById('usuario').value;
+    var correo = document.getElementById('correo').value;
+    var clave = document.getElementById('clave').value;
 
-    if(nombre.value === null || nombre.value === ''){
-        mensajeserror.push('Ingresa tu nombre ')
+    if (usuario.trim() === '') {
+      alert('Por favor, ingrese un nombre de usuario.');
+      console.log("Funcionaaa!!!!")
+      return false;
     }
-    if(password.value === null || password.value === ''){
-        mensajeserror.push('Ingresa tu contraseña ')
+    if (correo.trim() === '') {
+      alert('Por favor, ingrese un correo.');
+      console.log("Funcionaaa!!")
+      return false;
     }
-    if(correo.value === null || correo.value === ''){
-        mensajeserror.push('Ingresa tu correo')
+    if (clave.trim() === '') {
+      alert('Por favor, ingrese una contraseña.');
+      console.log("Funcionoooo!!!!")
+      return false;
     }
-
-    error.innerHTML = mensajeserror.join(', ')
-    return false;
-}
+    return true;
+  }
